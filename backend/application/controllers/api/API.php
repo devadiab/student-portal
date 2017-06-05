@@ -96,6 +96,16 @@ class API extends REST_Controller {
     }
 
 
+   public function student_get()
+   {
+
+        $data = $this->db->from("user")
+                ->get()
+                ->result();
+        $this->response($data, REST_Controller::HTTP_OK); 
+    }
+
+
     public function student_active_status_post($user_id)
     {
         $status = $this->post('status');

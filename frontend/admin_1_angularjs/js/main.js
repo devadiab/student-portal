@@ -363,6 +363,32 @@ MetronicApp.config(['$stateProvider', '$urlRouterProvider', function($stateProvi
             }
         })
 
+    // Advanced Datatables
+        .state('students', {
+            url: "/student_portal/list_students.html",
+            templateUrl: "views/student_portal/list_students.html",
+            data: {pageTitle: 'Advanced Datatables'},
+            controller: "StudentController",
+            resolve: {
+                deps: ['$ocLazyLoad', function($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        name: 'MetronicApp',
+                        insertBefore: '#ng_load_plugins_before', // load the above css files before '#ng_load_plugins_before'
+                        files: [                             
+                            '../assets/global/plugins/datatables/datatables.min.css', 
+                            '../assets/global/plugins/datatables/plugins/bootstrap/datatables.bootstrap.css',
+
+                            '../assets/global/plugins/datatables/datatables.all.min.js',
+
+                            '../assets/pages/scripts/table-datatables-managed.min.js',
+
+                            'js/controllers/StudentController.js'
+                        ]
+                    });
+                }]
+            }
+        })
+
         // Ajax Datetables
         .state('datatablesajax', {
             url: "/datatables/ajax.html",
@@ -388,6 +414,7 @@ MetronicApp.config(['$stateProvider', '$urlRouterProvider', function($stateProvi
                         ]
                     });
                 }]
+
             }
         })
 

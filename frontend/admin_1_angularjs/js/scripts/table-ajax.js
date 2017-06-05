@@ -8,7 +8,7 @@ var TableAjax = function () {
         });
     }
 
-    var handleRecords = function () {
+    var handleRecords = function (student_id) {
 
         var grid = new Datatable();
 
@@ -77,10 +77,10 @@ var TableAjax = function () {
     return {
 
         //main function to initiate the module
-        init: function () {
+        init: function (student_id) {
 
             initPickers();
-            handleRecords();
+            handleRecords(student_id);
         }
 
     };
