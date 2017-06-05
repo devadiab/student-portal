@@ -252,7 +252,7 @@ MetronicApp.config(['$stateProvider', '$urlRouterProvider', function($stateProvi
                         insertBefore: '#ng_load_plugins_before', // load the above css files before '#ng_load_plugins_before'
                         files: [
                             '../assets/global/plugins/bootstrap-fileinput/bootstrap-fileinput.css',
-                            '../assets/global/plugins/bootstrap-switch/css/bootstrap-switch-rtl.min.css',
+                            '../assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css',
                             '../assets/global/plugins/bootstrap-markdown/css/bootstrap-markdown.min.css',
                             '../assets/global/plugins/typeahead/typeahead.css',
 
@@ -320,7 +320,7 @@ MetronicApp.config(['$stateProvider', '$urlRouterProvider', function($stateProvi
                         name: 'MetronicApp',
                         insertBefore: '#ng_load_plugins_before', // load the above css files before '#ng_load_plugins_before'
                         files: [
-                            '../assets/global/plugins/bootstrap-select/css/bootstrap-select-rtl.min.css',
+                            '../assets/global/plugins/bootstrap-select/css/bootstrap-select.min.css',
                             '../assets/global/plugins/select2/css/select2.min.css',
                             '../assets/global/plugins/select2/css/select2-bootstrap.min.css',
 
@@ -350,7 +350,7 @@ MetronicApp.config(['$stateProvider', '$urlRouterProvider', function($stateProvi
                         insertBefore: '#ng_load_plugins_before', // load the above css files before '#ng_load_plugins_before'
                         files: [                             
                             '../assets/global/plugins/datatables/datatables.min.css', 
-                            '../assets/global/plugins/datatables/plugins/bootstrap/datatables.bootstrap-rtl.css',
+                            '../assets/global/plugins/datatables/plugins/bootstrap/datatables.bootstrap.css',
 
                             '../assets/global/plugins/datatables/datatables.all.min.js',
 
@@ -376,7 +376,7 @@ MetronicApp.config(['$stateProvider', '$urlRouterProvider', function($stateProvi
                         insertBefore: '#ng_load_plugins_before', // load the above css files before '#ng_load_plugins_before'
                         files: [
                             '../assets/global/plugins/datatables/datatables.min.css', 
-                            '../assets/global/plugins/datatables/plugins/bootstrap/datatables.bootstrap-rtl.css',
+                            '../assets/global/plugins/datatables/plugins/bootstrap/datatables.bootstrap.css',
                             '../assets/global/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.min.css',
 
                             '../assets/global/plugins/datatables/datatables.all.min.js',
@@ -404,7 +404,7 @@ MetronicApp.config(['$stateProvider', '$urlRouterProvider', function($stateProvi
                         insertBefore: '#ng_load_plugins_before', // load the above css files before '#ng_load_plugins_before'
                         files: [
                             '../assets/global/plugins/bootstrap-fileinput/bootstrap-fileinput.css',
-                            '../assets/pages/css/profile-rtl.css',
+                            '../assets/pages/css/profile.css',
                             
                             '../assets/global/plugins/jquery.sparkline.min.js',
                             '../assets/global/plugins/bootstrap-fileinput/bootstrap-fileinput.js',
@@ -452,7 +452,7 @@ MetronicApp.config(['$stateProvider', '$urlRouterProvider', function($stateProvi
                         insertBefore: '#ng_load_plugins_before', // load the above css files before '#ng_load_plugins_before'
                         files: [
                             '../assets/global/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.min.css',
-                            '../assets/apps/css/todo-2-rtl.css',
+                            '../assets/apps/css/todo-2.css',
                             '../assets/global/plugins/select2/css/select2.min.css',
                             '../assets/global/plugins/select2/css/select2-bootstrap.min.css',
 
